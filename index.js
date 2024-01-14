@@ -1,7 +1,7 @@
 // index.js
 const express = require('express');
 const app = express();
-const port = 80; // Choose your desired port
+const port = 3000; // Choose your desired port
 const connectDB = require('./db');
 
 connectDB(); // Call the function to connect to the database
